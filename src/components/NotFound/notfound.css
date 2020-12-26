@@ -1,0 +1,8 @@
+.container-not-found{
+    width: 100%;
+    height: 100%;
+}
+
+.container-not-found img{
+    object-fit: contain;
+}

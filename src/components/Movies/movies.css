@@ -1,0 +1,206 @@
+.main-container{
+    width: 100%;
+    max-width: 400px;
+    height: 600px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.big{
+    width: 100%;
+    height: fit-content;
+    max-width: 500px;
+
+}
+.bookmark-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background: rgb(231, 231, 231);
+    border-radius: 20px;
+}
+
+.title-container{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+
+}
+.card-title{
+    justify-content: center;
+    background: rgb(31, 81, 155);
+    color: #fff;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+.card-image{
+   object-fit:scale-down;
+   height: 470px;
+}
+.card-image-big{
+   object-fit:scale-down;
+   height: 600px;
+}
+.social-section{
+    background: rgb(145, 159, 184);
+    border-radius: 30px;
+    display: flex;
+    width: 80%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    margin:0px auto 10px auto;
+    
+}
+.social-section>button{
+    background: #fff;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.6rem;
+    color: #111;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.released, .rating{
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    background: rgb(31, 81, 155);
+    color: #fff;
+    border-radius: 20px;
+    width: fit-content;
+    
+}
+.more{
+    background: rgb(2, 216, 38);
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.bottom-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-wrapper,.movie-container, .movie-container form{
+    background: rgb(36, 56, 87);
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+    padding: 10px;
+    max-width: 600px;
+}
+.movie-container form .form-group{
+    height: 70px;
+}
+.movie-label{
+    color: #fff;
+    text-align: left;
+    width:100%;
+}
+.movie-input{
+    width: 100%;
+    height: 70px;
+}
+.actors-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:  rgb(36, 56, 87);
+    width: 100%;
+
+}
+.actors-section h2{
+    color: #fff;
+}
+.actors-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.actor-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+.actor-box .header {
+    height: 150px;
+    width: 150px;
+    background: #ccc;
+    border-radius: 50%;
+    margin: auto;
+}
+.actor-img{
+    position: relative;
+    bottom: 2.5px;
+}
+
+.actor-box h3{
+    color: #fff;
+}
+
+.btn-delete{
+    width: 30px;
+    height: 30px; 
+    border: none;
+    background: rgb(214, 22, 22);
+    display: flex;
+    border-radius: 5px;
+    padding: 2px;
+}
+.large{
+    width: fit-content;
+    height: 40px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.btn-delete img{
+    filter: invert(100%);
+    width: 60%;
+    margin: auto;
+}
+
+.movie-details{
+    border-radius: 12px;
+    width: 70%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+.detail-box h3{
+    color: rgb(36, 56, 87);
+}
+.detail-box{
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background: #fff;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.detail-box:not(:last-of-type){
+    border-bottom: 1px solid rgb(36, 56, 87);
+}

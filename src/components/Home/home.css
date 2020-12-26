@@ -1,0 +1,32 @@
+.main-heading{
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    left: 30px;
+    top: 50px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main-heading h1{
+    color: #fff;
+    font-size: 4rem;
+}
+
+@media screen and (max-width: 450px){
+    .main-heading{
+        
+        left: 0px;
+        padding: 0px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .main-heading h1{
+        font-size: 3rem;
+    }
+    .main-heading .btn-auth{
+        margin: auto;
+    }
+}
